@@ -4,17 +4,20 @@ using namespace std;
 
 int main()
 {
-    char grade = 'A';
     string phrase = "Giraffe Academy";
-    int age = 50;
-    double gpa = 2.3;
-    bool isMale = true;
+//                   0123456789
 
-    cout << grade << endl;
-    cout << phrase << endl;
-    cout << age << endl;
-    cout << gpa << endl;
-    cout << isMale << endl;
+    //cout << phrase.length();
+    //cout << phrase[0];
+    //cout << phrase[2];
+    /*phrase[0] = 'B';
+    cout << phrase;*/
+    //cout << phrase.find("Academy", 0);
+    //cout << phrase.find("ffe", 0);
+    //cout << phrase.substr(8, 3);
+    string phrasesub;
+    phrasesub = phrase.substr(8, 3);
+    cout << phrasesub;
 
     return 0;
 }
