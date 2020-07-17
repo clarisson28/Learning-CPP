@@ -4,13 +4,17 @@ using namespace std;
 
 int main()
 {
-    string characterName = "John";
-    int characterAge;
-    characterAge = 35;
+    char grade = 'A';
+    string phrase = "Giraffe Academy";
+    int age = 50;
+    double gpa = 2.3;
+    bool isMale = true;
 
-    cout << "There once was a man named " << characterName << "," << endl;
-    cout << "he was " << characterAge << " years old." << endl;
-    cout << "He really liked his name " << characterName << "," << endl;
-    cout << "but didn't like being " << characterAge << "." << endl;
+    cout << grade << endl;
+    cout << phrase << endl;
+    cout << age << endl;
+    cout << gpa << endl;
+    cout << isMale << endl;
+
     return 0;
 }
