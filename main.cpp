@@ -3,36 +3,22 @@
 
 using namespace std;
 
+/*
+void sayHi(){
+    cout << "Hello User";
+}
+*/
+
+void sayHi(string name, int age){
+    cout << "Hello " << name << " you are " << age << " years old." << endl;
+}
+
 int main()
 {
-    /*
-    int luckyNums[] = {4, 8, 15, 16, 23, 42};
-    //                 0  1   2   3   4   5
-
-    //cout << luckyNums[0];
-    //cout << luckyNums[2];
-
-    //luckyNums[0] = 19;
-    //cout << luckyNums[0];
-
-    return 0;
-    */
-
-
-    /*
-    int luckyNums[20] = {4, 8, 15, 16, 23, 42};
-    luckyNums[10] = 100;
-
-    cout << luckyNums[10];
-
-    return 0;
-    */
-
-
-    int luckyNums[20];
-    luckyNums[0] = 100;
-
-    cout << luckyNums[0];
+    //cout << "Top";
+    sayHi("Eddieson", 23);
+    sayHi("Clarissa", 23);
+    //cout << "Bottom";
 
     return 0;
 
