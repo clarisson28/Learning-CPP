@@ -3,22 +3,13 @@
 
 using namespace std;
 
-/*
-void sayHi(){
-    cout << "Hello User";
-}
-*/
-
-void sayHi(string name, int age){
-    cout << "Hello " << name << " you are " << age << " years old." << endl;
+double cube(double num){
+    return num * num * num;
 }
 
 int main()
 {
-    //cout << "Top";
-    sayHi("Eddieson", 23);
-    sayHi("Clarissa", 23);
-    //cout << "Bottom";
+    cout << cube(5.0);
 
     return 0;
 
