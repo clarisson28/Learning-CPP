@@ -5,37 +5,22 @@ using namespace std;
 
 int main()
 {
-    /*cout << 5 + 7;
-    cout << 5 - 7;
-    cout << 5 * 7;
-    cout << 5 / 7;*/
-    //cout << 10 % 3;
-    //cout << 4 + 5 * 10;
-    //cout << (4 + 5) * 10;
+    /*
+    //int age;
+    //double age;
+    //char age;
 
-    /*int wnum = 5;
-    double dnum = 5.5;
+    cout << "Enter your age: ";
+    cin >> age;
 
-    //wnum ++;
-    //wnum --;
-    //wnum += 80;
-    //wnum -= 80;
-    //wnum *= 80;
-    //wnum /= 80;
-    //cout << wnum;
+    cout << "\nYou are " << age << " years old.";
+    */
 
-    //cout << 5.5 + 9;
-    //cout << 10 / 3;
-    //cout << 10.0 / 3.0;*/
+    string name;
+    cout << "Enter your name: ";
+    getline(cin, name);
 
-    //cout << pow(2, 5);
-    //cout << pow(3, 3);
-    //cout << sqrt(36);
-    //cout << round(4.3);
-    //cout << round(4.6);
-    //cout << ceil(4.1);
-    //cout << floor(4.8);
-    cout << fmax(3, 10);
+    cout << "Hello " << name;
 
     return 0;
 }
