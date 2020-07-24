@@ -3,51 +3,36 @@
 
 using namespace std;
 
-/*
-int getMax(int num1, int num2){
-    int result;
-
-    if(num1 > num2){
-        result = num1;
-    }
-    else{
-        result = num2;
-    }
-
-    return result;
-}
-
 int main()
 {
-    cout << getMax(2, 5);
+    double num1, num2;
+    char op;
 
-    return 0;
+    cout << "Enter first number: ";
+    cin >> num1;
+    cout << "Enter operator: ";
+    cin >> op;
+    cout << "Enter second number: ";
+    cin >> num2;
 
-}
-*/
-
-int getMax(int num1, int num2, int num3){
-    int result;
-
-    if(num1 >= num2 && num1 >= num3){
-        result = num1;
+    double result;
+    if(op == '+'){
+        result = num1 + num2;
     }
-    else if(num2 >= num1 && num2 >= num3){
-        result = num2;
+    else if(op == '-'){
+        result = num1 - num2;
+    }
+    else if(op == '*'){
+        result = num1 * num2;
+    }
+    else if(op == '/'){
+        result = num1 / num2;
     }
     else{
-        result = num3;
+        cout << "Invalid operator.";
     }
 
-    return result;
-}
-
-int main()
-{
-    //cout << getMax(2, 5, 10);
-    //cout << getMax(2, 50, 10);
-    //cout << getMax(200, 50, 10);
-    cout << getMax(200, 200, 10);
+    cout << result;
 
     return 0;
 }

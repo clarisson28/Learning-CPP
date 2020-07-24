@@ -1,6 +1,5 @@
 # depslib dependency file v1.0
-1595084500 source:c:\users\ako\desktop\learning c++\learning c++\main.cpp
-	<stdio.h>
-	<windows.h>
-	<strings.h>
+1595572447 source:c:\users\ako\desktop\learning c++\learning c++\main.cpp
+	<iostream>
+	<cmath>
 
