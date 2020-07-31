@@ -3,19 +3,23 @@
 
 using namespace std;
 
-int power(int baseNum, int powNum){
-    int result = 1;
-    for(int i = 0; i < powNum; i++){
-        result *= baseNum;
-    }
-
-    return result;
-}
-
 int main()
 {
-    //cout << power(2,3);
-    cout << power(4, 2);
+    int numberGrid[3][2] = {
+                            {1, 2},
+                            {3, 4},
+                            {5, 6}
+    };
+
+    //cout << numberGrid[0][1];
+    //cout << numberGrid[0][1];
+
+    for(int i = 0; i < 3; i++){
+        for(int j = 0; j < 2; j++){
+            cout << numberGrid[i][j];
+        }
+        cout << endl;
+    }
 
     return 0;
 }
