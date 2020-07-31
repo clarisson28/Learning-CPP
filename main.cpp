@@ -6,40 +6,15 @@ using namespace std;
 int main()
 {
     /*
-    int secretNum = 7;
-    int guess;
-
-    while(secretNum != guess){
-        cout << "Enter guess: ";
-        cin >> guess;
+    for(int i = 1; i <= 5; i++){
+        cout << i << endl;
     }
-
-    cout << "You Win!";
     */
 
-    int secretNum = 7;
-    int guess;
-    int guessCount = 0;
-    int guessLimit = 3;
-    bool outOfGuesses = false;
 
-    while(secretNum != guess && !outOfGuesses){
-        if(guessCount < guessLimit){
-            cout << "Enter guess: ";
-            cin >> guess;
-            guessCount++;
-        }
-        else {
-            outOfGuesses = true;
-        }
-
-    }
-
-    if(outOfGuesses){
-        cout << "You Lose!";
-    }
-    else {
-        cout << "You Win!";
+    int nums[] = {1, 2, 5, 7, 3};
+    for(int i = 0; i < 5; i++){
+        cout << nums[i] << endl;
     }
 
     return 0;
